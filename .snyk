@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:marked:20140131-1':
+    - grunt-jquery-content > marked:
+        patched: '2020-04-25T02:50:42.358Z'
+  'npm:minimatch:20160620':
+    - grunt-clean > grunt > glob-whatev > minimatch:
+        patched: '2020-04-25T02:50:42.358Z'
+  'npm:request:20160119':
+    - grunt-clean > grunt > prompt > winston > loggly > request:
+        patched: '2020-04-25T02:50:42.358Z'
